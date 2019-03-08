@@ -1,6 +1,6 @@
-[submodule "jetlinks-protocal"]
-	path = jetlinks-protocal
-	url = https://github.com/jetlinks/jetlinks-protocal
+[submodule "jetlinks-protocol"]
+	path = jetlinks-protocol
+	url = https://github.com/jetlinks/jetlinks-protocol
 [submodule "jetlinks-gateway"]
 	path = jetlinks-gateway
 	url = https://github.com/jetlinks/jetlinks-gateway
