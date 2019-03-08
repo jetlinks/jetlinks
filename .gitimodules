@@ -1,0 +1,3 @@
+[submodule "jetlinks-protocal"]
+	path = jetlinks-protocal
+	url = https://github.com/jetlinks/jetlinks-protocal
