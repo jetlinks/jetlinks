@@ -7,3 +7,6 @@
 [submodule "jetlinks-registry"]
 	path = jetlinks-registry
 	url = git@github.com:jetlinks/jetlinks-registry.git
+[submodule "netty-mqtt-client"]
+	path = netty-mqtt-client
+	url = git@github.com:jetlinks/netty-mqtt-client.git
