@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
+
 mvn clean deploy -DskipTests
-cd jetlinks-protocol
+cd coap-codec
+mvn clean deploy -DskipTests
+cd ../jetlinks-protocol
 mvn clean deploy -DskipTests
 cd ../jetlinks-registry
 mvn clean deploy -DskipTests
