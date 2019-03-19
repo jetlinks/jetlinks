@@ -16,6 +16,6 @@
 [submodule "coap-codec"]
 	path = coap-codec
 	url = git@github.com:jetlinks/coap-codec.git
-[submodule "mqtt-simulator"]
-	path = mqtt-simulator
-	url = git@github.com:jetlinks/mqtt-simulator.git
+[submodule "device-simulator"]
+	path = device-simulator
+	url = git@github.com:jetlinks/device-simulator.git
