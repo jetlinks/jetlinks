@@ -19,3 +19,6 @@
 [submodule "device-simulator"]
 	path = device-simulator
 	url = git@github.com:jetlinks/device-simulator.git
+[submodule "rule-engine"]
+	path = rule-engine
+	url = git@github.com:jetlinks/rule-engine.git
