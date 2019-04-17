@@ -46,7 +46,7 @@
         <spring.boot.version>1.5.19.RELEASE</spring.boot.version>
         <java.version>1.8</java.version>
         <project.build.jdk>${java.version}</project.build.jdk>
-        <hsweb.framework.version>3.0.7</hsweb.framework.version>
+        <hsweb.framework.version>3.0.8-SNAPSHOT</hsweb.framework.version>
         <hsweb.expands.version>3.0.2</hsweb.expands.version>
 
     </properties>
@@ -300,11 +300,10 @@
     <dependencyManagement>
         <dependencies>
 
-
             <dependency>
                 <groupId>org.redisson</groupId>
                 <artifactId>redisson</artifactId>
-                <version>3.10.4</version>
+                <version>3.10.6</version>
             </dependency>
 
             <dependency>
