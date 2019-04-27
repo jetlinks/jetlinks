@@ -12,3 +12,8 @@
 -------|--------rule-engine          #规则引擎
 
 ```
+
+请先在github中添加[SSH Key](https://github.com/settings/keys)
+```bash
+$ git clone --recursive git@github.com:jetlinks/jetlinks.git
+```
