@@ -1,6 +1,3 @@
-[submodule "jetlinks-protocol"]
-	path = jetlinks-protocol
-	url = git@github.com:jetlinks/jetlinks-protocol.git
 [submodule "jetlinks-gateway"]
 	path = jetlinks-gateway
 	url = git@github.com:jetlinks/jetlinks-gateway.git
@@ -22,3 +19,6 @@
 [submodule "rule-engine"]
 	path = rule-engine
 	url = git@github.com:jetlinks/rule-engine.git
+[submodule "jetlinks-core"]
+	path = jetlinks-core
+	url = git@github.com:jetlinks/jetlinks-core.git
