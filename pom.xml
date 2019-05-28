@@ -9,10 +9,10 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>jetlinks</name>
+    <name>JetLinks</name>
     <url>http://jetlinks.org</url>
     <inceptionYear>2019</inceptionYear>
-    <description>jetlinks 物联网平台</description>
+    <description>JetLinks 物联网平台</description>
 
     <licenses>
         <license>
