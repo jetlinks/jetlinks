@@ -1,9 +1,6 @@
 [submodule "jetlinks-gateway"]
 	path = jetlinks-gateway
 	url = git@github.com:jetlinks/jetlinks-gateway.git
-[submodule "jetlinks-registry"]
-	path = jetlinks-registry
-	url = git@github.com:jetlinks/jetlinks-registry.git
 [submodule "netty-mqtt-client"]
 	path = netty-mqtt-client
 	url = git@github.com:jetlinks/netty-mqtt-client.git
@@ -22,3 +19,6 @@
 [submodule "jetlinks-core"]
 	path = jetlinks-core
 	url = git@github.com:jetlinks/jetlinks-core.git
+[submodule "jetlinks-registry-redis"]
+	path = jetlinks-registry-redis
+	url = git@github.com:jetlinks/jetlinks-registry-redis.git
