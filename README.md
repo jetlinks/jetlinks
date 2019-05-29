@@ -1,4 +1,6 @@
 # Jet Links 物联网基础平台
+[![Maven Central](https://img.shields.io/maven-central/v/org.jetlinks/jetlinks.svg)](http://search.maven.org/#search%7Cga%7C1%7Cjetlinks)
+[![Maven metadata URL](https://img.shields.io/maven-metadata/v/https/oss.sonatype.org/content/repositories/snapshots/org/jetlinks/jetlinks/maven-metadata.xml.svg)](https://oss.sonatype.org/content/repositories/snapshots/org/jetlinks/jetlinks)
 
 ```bash
 ----jetlinks
