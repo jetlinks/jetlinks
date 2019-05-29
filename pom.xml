@@ -6,7 +6,7 @@
 
     <groupId>org.jetlinks</groupId>
     <artifactId>jetlinks</artifactId>
-    <version>1.0.0-RC</version>
+    <version>1.0.0-RC2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>JetLinks</name>
