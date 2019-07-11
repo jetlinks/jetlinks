@@ -48,7 +48,7 @@
         <project.build.jdk>${java.version}</project.build.jdk>
         <hsweb.framework.version>3.0.8</hsweb.framework.version>
         <hsweb.expands.version>3.0.2</hsweb.expands.version>
-
+        <lettuce.plus.version>1.0.0-SNAPSHOT</lettuce.plus.version>
     </properties>
 
     <profiles>
@@ -303,6 +303,18 @@
                 <groupId>io.projectreactor</groupId>
                 <artifactId>reactor-core</artifactId>
                 <version>3.2.10.RELEASE</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jetlinks</groupId>
+                <artifactId>lettuce-plus-core</artifactId>
+                <version>${lettuce.plus.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jetlinks</groupId>
+                <artifactId>lettuce-plus-spring</artifactId>
+                <version>${lettuce.plus.version}</version>
             </dependency>
 
             <dependency>
