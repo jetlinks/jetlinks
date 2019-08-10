@@ -19,3 +19,7 @@
 ```bash
 $ git clone --recursive git@github.com:jetlinks/jetlinks.git
 ```
+
+
+# 查看演示
+本项目为核心模块整合,无法直接运行. 要看演示效果[请看这里](https://github.com/jetlinks/jetlinks-platform).
