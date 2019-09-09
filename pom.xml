@@ -48,7 +48,7 @@
         <project.build.jdk>${java.version}</project.build.jdk>
         <hsweb.framework.version>3.0.9</hsweb.framework.version>
         <hsweb.expands.version>3.0.2</hsweb.expands.version>
-        <lettuce.plus.version>1.0.0-RC</lettuce.plus.version>
+        <lettuce.plus.version>1.0.0-RC2-SNAPSHOT</lettuce.plus.version>
     </properties>
 
     <profiles>
