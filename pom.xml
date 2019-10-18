@@ -6,7 +6,7 @@
 
     <groupId>org.jetlinks</groupId>
     <artifactId>jetlinks</artifactId>
-    <version>1.0.0-RELEASE-SNAPSHOT</version>
+    <version>1.0.0-BUILD-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>JetLinks</name>
@@ -43,10 +43,11 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.locales>zh_CN</project.build.locales>
-        <spring.boot.version>1.5.21.RELEASE</spring.boot.version>
+        <spring.boot.version>2.2.0.RC1</spring.boot.version>
+
         <java.version>1.8</java.version>
         <project.build.jdk>${java.version}</project.build.jdk>
-        <hsweb.framework.version>3.0.9</hsweb.framework.version>
+        <hsweb.framework.version>4.0.0-SNAPSHOT</hsweb.framework.version>
         <hsweb.expands.version>3.0.2</hsweb.expands.version>
         <lettuce.plus.version>1.0.0-RC2-SNAPSHOT</lettuce.plus.version>
     </properties>
@@ -300,12 +301,6 @@
         <dependencies>
 
             <dependency>
-                <groupId>io.projectreactor</groupId>
-                <artifactId>reactor-core</artifactId>
-                <version>3.2.10.RELEASE</version>
-            </dependency>
-
-            <dependency>
                 <groupId>org.jetlinks</groupId>
                 <artifactId>lettuce-plus-core</artifactId>
                 <version>${lettuce.plus.version}</version>
@@ -340,24 +335,12 @@
             </dependency>
 
             <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>${spring.boot.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-
-            <dependency>
                 <groupId>org.hswebframework.web</groupId>
                 <artifactId>hsweb-framework</artifactId>
                 <version>${hsweb.framework.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
                 <exclusions>
-                    <exclusion>
-                        <groupId>org.redisson</groupId>
-                        <artifactId>redisson</artifactId>
-                    </exclusion>
                     <exclusion>
                         <groupId>org.springframework.boot</groupId>
                         <artifactId>spring-boot-dependencies</artifactId>
@@ -374,21 +357,6 @@
                 <scope>import</scope>
             </dependency>
 
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Edgware.SR5</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-                <version>0.1.1.RELEASE</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
         </dependencies>
     </dependencyManagement>
 
