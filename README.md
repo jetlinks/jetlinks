@@ -2,6 +2,8 @@
 [![Maven Central](https://img.shields.io/maven-central/v/org.jetlinks/jetlinks.svg)](http://search.maven.org/#search%7Cga%7C1%7Cjetlinks)
 [![Maven metadata URL](https://img.shields.io/maven-metadata/v/https/oss.sonatype.org/content/repositories/snapshots/org/jetlinks/jetlinks/maven-metadata.xml.svg)](https://oss.sonatype.org/content/repositories/snapshots/org/jetlinks/jetlinks)
 
+# ⚠️响应式重构中... 暂不可用
+
 ```bash
 ----jetlinks
 -------|--------coap-codec           #CoAP协议编码解码包
