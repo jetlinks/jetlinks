@@ -50,6 +50,7 @@
         <hsweb.framework.version>4.0.0-SNAPSHOT</hsweb.framework.version>
         <hsweb.expands.version>3.0.2</hsweb.expands.version>
         <lettuce.plus.version>1.0.0-RC2-SNAPSHOT</lettuce.plus.version>
+        <reactor.version>Dysprosium-RELEASE</reactor.version>
     </properties>
 
     <profiles>
@@ -299,6 +300,13 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>io.projectreactor</groupId>
+                <artifactId>reactor-bom</artifactId>
+                <version>${reactor.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
 
             <dependency>
                 <groupId>org.jetlinks</groupId>
