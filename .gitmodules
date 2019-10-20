@@ -16,9 +16,6 @@
 [submodule "jetlinks-core"]
 	path = jetlinks-core
 	url = git@github.com:jetlinks/jetlinks-core.git
-[submodule "jetlinks-registry-redis"]
-	path = jetlinks-registry-redis
-	url = git@github.com:jetlinks/jetlinks-registry-redis.git
 [submodule "jetlinks-supports"]
 	path = jetlinks-supports
 	url = git@github.com:jetlinks/jetlinks-supports.git
