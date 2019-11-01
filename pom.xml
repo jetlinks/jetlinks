@@ -43,10 +43,9 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.locales>zh_CN</project.build.locales>
-        <spring.boot.version>2.2.0.RC1</spring.boot.version>
-
         <java.version>1.8</java.version>
         <project.build.jdk>${java.version}</project.build.jdk>
+        <spring.boot.version>2.2.0.RC1</spring.boot.version>
         <hsweb.framework.version>4.0.0-SNAPSHOT</hsweb.framework.version>
         <hsweb.expands.version>3.0.2</hsweb.expands.version>
         <lettuce.plus.version>1.0.0-BUILD-SNAPSHOT</lettuce.plus.version>
