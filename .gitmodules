@@ -4,9 +4,6 @@
 [submodule "netty-mqtt-client"]
 	path = netty-mqtt-client
 	url = git@github.com:jetlinks/netty-mqtt-client.git
-[submodule "coap-codec"]
-	path = coap-codec
-	url = git@github.com:jetlinks/coap-codec.git
 [submodule "device-simulator"]
 	path = device-simulator
 	url = git@github.com:jetlinks/device-simulator.git
