@@ -14,7 +14,6 @@
         <module>jetlinks-core</module>
         <module>jetlinks-gateway</module>
         <module>jetlinks-supports</module>
-        <module>netty-mqtt-client</module>
         <module>rule-engine</module>
     </modules>
 
