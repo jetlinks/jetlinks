@@ -9,6 +9,15 @@
     <version>1.0.0-BUILD-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <modules>
+        <module>device-simulator</module>
+        <module>jetlinks-core</module>
+        <module>jetlinks-gateway</module>
+        <module>jetlinks-supports</module>
+        <module>netty-mqtt-client</module>
+        <module>rule-engine</module>
+    </modules>
+
     <name>JetLinks</name>
     <url>http://jetlinks.org</url>
     <inceptionYear>2019</inceptionYear>

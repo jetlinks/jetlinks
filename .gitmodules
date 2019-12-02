@@ -1,9 +1,6 @@
 [submodule "jetlinks-gateway"]
 	path = jetlinks-gateway
 	url = git@github.com:jetlinks/jetlinks-gateway.git
-[submodule "netty-mqtt-client"]
-	path = netty-mqtt-client
-	url = git@github.com:jetlinks/netty-mqtt-client.git
 [submodule "device-simulator"]
 	path = device-simulator
 	url = git@github.com:jetlinks/device-simulator.git
