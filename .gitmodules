@@ -1,6 +1,3 @@
-[submodule "jetlinks-gateway"]
-	path = jetlinks-gateway
-	url = git@github.com:jetlinks/jetlinks-gateway.git
 [submodule "device-simulator"]
 	path = device-simulator
 	url = git@github.com:jetlinks/device-simulator.git
