@@ -12,7 +12,6 @@
     <modules>
         <module>device-simulator</module>
         <module>jetlinks-core</module>
-        <module>jetlinks-gateway</module>
         <module>jetlinks-supports</module>
         <module>rule-engine</module>
     </modules>
