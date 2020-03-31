@@ -6,11 +6,10 @@
 
     <groupId>org.jetlinks</groupId>
     <artifactId>jetlinks</artifactId>
-    <version>1.0.1-BUILD-SNAPSHOT</version>
+    <version>1.0.1</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>device-simulator</module>
         <module>jetlinks-core</module>
         <module>jetlinks-supports</module>
         <module>rule-engine</module>
@@ -53,7 +52,7 @@
         <java.version>1.8</java.version>
         <project.build.jdk>${java.version}</project.build.jdk>
         <spring.boot.version>2.2.5.RELEASE</spring.boot.version>
-        <hsweb.framework.version>4.0.0</hsweb.framework.version>
+        <hsweb.framework.version>4.0.1</hsweb.framework.version>
         <hsweb.expands.version>3.0.2</hsweb.expands.version>
         <reactor.version>Dysprosium-RELEASE</reactor.version>
     </properties>

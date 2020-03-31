@@ -4,7 +4,6 @@
 
 ```bash
 ----jetlinks
--------|--------device-simulator     #设备模拟器，模拟设备消息收发以及压力测试
 -------|--------jetlinks-core        #核心模块,统一API
 -------|--------jetlinks-supports    #默认功能实现
 -------|--------rule-engine          #规则引擎
