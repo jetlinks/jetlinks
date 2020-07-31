@@ -54,7 +54,7 @@
         <spring.boot.version>2.2.8.RELEASE</spring.boot.version>
         <hsweb.framework.version>4.0.3</hsweb.framework.version>
         <hsweb.expands.version>3.0.2</hsweb.expands.version>
-        <reactor.version>Dysprosium-RELEASE</reactor.version>
+        <reactor.version>Dysprosium-SR10</reactor.version>
     </properties>
 
     <profiles>
