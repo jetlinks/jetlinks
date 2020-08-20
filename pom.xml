@@ -51,8 +51,7 @@
         <project.build.locales>zh_CN</project.build.locales>
         <java.version>1.8</java.version>
         <project.build.jdk>${java.version}</project.build.jdk>
-        <spring.boot.version>2.2.8.RELEASE</spring.boot.version>
-        <hsweb.framework.version>4.0.5</hsweb.framework.version>
+        <hsweb.framework.version>4.0.6-SNAPSHOT</hsweb.framework.version>
         <hsweb.expands.version>3.0.2</hsweb.expands.version>
         <reactor.version>Dysprosium-SR10</reactor.version>
     </properties>
