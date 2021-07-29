@@ -6,7 +6,7 @@
 
     <groupId>org.jetlinks</groupId>
     <artifactId>jetlinks</artifactId>
-    <version>1.1.7-SNAPSHOT</version>
+    <version>1.2.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -53,7 +53,7 @@
         <project.build.jdk>${java.version}</project.build.jdk>
         <hsweb.framework.version>4.0.11-SNAPSHOT</hsweb.framework.version>
         <hsweb.expands.version>3.0.2</hsweb.expands.version>
-        <reactor.version>Dysprosium-SR20</reactor.version>
+        <reactor.version>2020.0.6</reactor.version>
     </properties>
 
     <profiles>
