@@ -16,14 +16,14 @@
     </modules>
 
     <name>JetLinks</name>
-    <url>http://jetlinks.org</url>
+    <url>https://github.com/jetlinks</url>
     <inceptionYear>2019</inceptionYear>
     <description>JetLinks 物联网平台</description>
 
     <licenses>
         <license>
             <name>The Apache License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
 
