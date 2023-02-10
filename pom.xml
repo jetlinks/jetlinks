@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.jetlinks</groupId>
     <artifactId>jetlinks</artifactId>
-    <version>1.1.10-SNAPSHOT</version>
+    <version>1.2.0</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -51,9 +49,10 @@
         <project.build.locales>zh_CN</project.build.locales>
         <java.version>1.8</java.version>
         <project.build.jdk>${java.version}</project.build.jdk>
-        <hsweb.framework.version>4.0.13</hsweb.framework.version>
+        <hsweb.framework.version>4.0.15-SNAPSHOT</hsweb.framework.version>
         <hsweb.expands.version>3.0.2</hsweb.expands.version>
-        <reactor.version>Dysprosium-SR20</reactor.version>
+        <reactor.version>2020.0.17</reactor.version>
+        <scalecube.version>2.10.23</scalecube.version>
     </properties>
 
     <profiles>
@@ -252,20 +251,8 @@
         </dependency>
 
         <dependency>
-            <groupId>com.google.code.findbugs</groupId>
-            <artifactId>findbugs</artifactId>
-            <version>3.0.1</version>
-        </dependency>
-
-        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
             <scope>test</scope>
         </dependency>
 
@@ -292,9 +279,30 @@
         <dependencies>
 
             <dependency>
+                <groupId>com.google.code.findbugs</groupId>
+                <artifactId>jsr305</artifactId>
+                <version>3.0.2</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.dom4j</groupId>
+                <artifactId>dom4j</artifactId>
+                <version>2.1.3</version>
+                <optional>true</optional>
+            </dependency>
+
+            <dependency>
+                <groupId>io.scalecube</groupId>
+                <artifactId>scalecube-services-parent</artifactId>
+                <version>${scalecube.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
                 <groupId>io.netty</groupId>
                 <artifactId>netty-bom</artifactId>
-                <version>4.1.51.Final</version>
+                <version>4.1.68.Final</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -316,7 +324,7 @@
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
-                <version>1.2.66</version>
+                <version>1.2.83</version>
             </dependency>
 
             <dependency>
@@ -327,11 +335,23 @@
                 <scope>import</scope>
             </dependency>
 
+            <dependency>
+                <groupId>com.h2database</groupId>
+                <artifactId>h2</artifactId>
+                <version>2.1.212</version>
+            </dependency>
+
 
         </dependencies>
     </dependencyManagement>
 
     <repositories>
+        <repository>
+            <id>aliyun-nexus</id>
+            <name>aliyun</name>
+            <url>https://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
+
         <repository>
             <id>hsweb-nexus</id>
             <name>Nexus Release Repository</name>
@@ -341,11 +361,7 @@
                 <updatePolicy>always</updatePolicy>
             </snapshots>
         </repository>
-        <repository>
-            <id>aliyun-nexus</id>
-            <name>aliyun</name>
-            <url>https://maven.aliyun.com/nexus/content/groups/public/</url>
-        </repository>
+
     </repositories>
 
     <distributionManagement>
