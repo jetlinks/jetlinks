@@ -53,6 +53,10 @@
         <hsweb.expands.version>3.0.2</hsweb.expands.version>
         <reactor.version>2020.0.36</reactor.version>
         <scalecube.version>2.10.23</scalecube.version>
+        <netty.version>4.1.68.Final</netty.version>
+        <jackson.version>2.14.3</jackson.version>
+        <logback.version>1.2.11</logback.version>
+        <fastjson.version>1.2.83</fastjson.version>
     </properties>
 
     <profiles>
@@ -279,6 +283,12 @@
         <dependencies>
 
             <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.30</version>
+            </dependency>
+
+            <dependency>
                 <groupId>com.google.code.findbugs</groupId>
                 <artifactId>jsr305</artifactId>
                 <version>3.0.2</version>
@@ -302,7 +312,7 @@
             <dependency>
                 <groupId>io.netty</groupId>
                 <artifactId>netty-bom</artifactId>
-                <version>4.1.68.Final</version>
+                <version>${netty.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -318,13 +328,13 @@
             <dependency>
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-classic</artifactId>
-                <version>1.2.3</version>
+                <version>${logback.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
-                <version>1.2.83</version>
+                <version>${fastjson.version}</version>
             </dependency>
 
             <dependency>
@@ -334,6 +344,15 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson</groupId>
+                <artifactId>jackson-bom</artifactId>
+                <version>${jackson.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
 
             <dependency>
                 <groupId>com.h2database</groupId>
