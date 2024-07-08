@@ -47,11 +47,11 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.locales>zh_CN</project.build.locales>
-        <java.version>1.8</java.version>
+        <java.version>17</java.version>
         <project.build.jdk>${java.version}</project.build.jdk>
-        <hsweb.framework.version>4.0.16</hsweb.framework.version>
+        <hsweb.framework.version>5.0.0-SNAPSHOT</hsweb.framework.version>
         <hsweb.expands.version>3.0.2</hsweb.expands.version>
-        <reactor.version>2020.0.36</reactor.version>
+        <reactor.version>2023.0.7</reactor.version>
         <scalecube.version>2.10.23</scalecube.version>
         <netty.version>4.1.68.Final</netty.version>
         <jackson.version>2.14.3</jackson.version>
