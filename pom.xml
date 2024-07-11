@@ -53,7 +53,7 @@
         <hsweb.expands.version>3.0.2</hsweb.expands.version>
         <reactor.version>2020.0.45</reactor.version>
         <scalecube.version>2.10.23</scalecube.version>
-        <netty.version>4.1.68.Final</netty.version>
+        <netty.version>4.1.111.Final</netty.version>
         <jackson.version>2.14.3</jackson.version>
         <logback.version>1.2.11</logback.version>
         <fastjson.version>1.2.83</fastjson.version>
@@ -288,6 +288,14 @@
         <dependencies>
 
             <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-bom</artifactId>
+                <version>${netty.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
                 <groupId>io.projectreactor</groupId>
                 <artifactId>reactor-bom</artifactId>
                 <version>${reactor.version}</version>
@@ -318,14 +326,6 @@
                 <groupId>io.scalecube</groupId>
                 <artifactId>scalecube-services-parent</artifactId>
                 <version>${scalecube.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>io.netty</groupId>
-                <artifactId>netty-bom</artifactId>
-                <version>${netty.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
