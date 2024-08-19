@@ -4,7 +4,7 @@
 
     <groupId>org.jetlinks</groupId>
     <artifactId>jetlinks</artifactId>
-    <version>1.2.2-SNAPSHOT</version>
+    <version>1.2.2</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -49,7 +49,7 @@
         <project.build.locales>zh_CN</project.build.locales>
         <java.version>1.8</java.version>
         <project.build.jdk>${java.version}</project.build.jdk>
-        <hsweb.framework.version>4.0.17-SNAPSHOT</hsweb.framework.version>
+        <hsweb.framework.version>4.0.17</hsweb.framework.version>
         <hsweb.expands.version>3.0.2</hsweb.expands.version>
         <reactor.version>2020.0.45</reactor.version>
         <scalecube.version>2.10.23</scalecube.version>
