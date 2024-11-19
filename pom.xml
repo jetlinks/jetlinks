@@ -323,6 +323,14 @@
             </dependency>
 
             <dependency>
+                <groupId>com.fasterxml.jackson</groupId>
+                <artifactId>jackson-bom</artifactId>
+                <version>${jackson.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
                 <groupId>io.scalecube</groupId>
                 <artifactId>scalecube-services-parent</artifactId>
                 <version>${scalecube.version}</version>
@@ -350,13 +358,6 @@
                 <scope>import</scope>
             </dependency>
 
-            <dependency>
-                <groupId>com.fasterxml.jackson</groupId>
-                <artifactId>jackson-bom</artifactId>
-                <version>${jackson.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
 
 
             <dependency>
