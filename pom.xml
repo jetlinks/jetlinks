@@ -47,14 +47,14 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.locales>zh_CN</project.build.locales>
-        <java.version>1.8</java.version>
+        <java.version>17</java.version>
         <project.build.jdk>${java.version}</project.build.jdk>
-        <hsweb.framework.version>4.0.19</hsweb.framework.version>
+        <hsweb.framework.version>5.0.0</hsweb.framework.version>
         <hsweb.expands.version>3.0.2</hsweb.expands.version>
-        <reactor.version>2020.0.45</reactor.version>
+        <reactor.version>2024.0.4</reactor.version>
         <scalecube.version>2.10.23</scalecube.version>
         <netty.version>4.1.111.Final</netty.version>
-        <jackson.version>2.14.3</jackson.version>
+        <jackson.version>2.17.1</jackson.version>
         <slf4j.version>2.0.17</slf4j.version>
         <logback.version>1.5.17</logback.version>
         <fastjson.version>1.2.83</fastjson.version>
@@ -381,6 +381,15 @@
             <id>aliyun-nexus</id>
             <name>aliyun</name>
             <url>https://maven.aliyun.com/nexus/content/groups/public/</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+
+        <repository>
+            <id>maven-central</id>
+            <name>central</name>
+            <url>https://repo1.maven.org/maven2/</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
