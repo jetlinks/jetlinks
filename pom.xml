@@ -49,7 +49,7 @@
         <project.build.locales>zh_CN</project.build.locales>
         <java.version>17</java.version>
         <project.build.jdk>${java.version}</project.build.jdk>
-        <hsweb.framework.version>5.0.1-SNAPSHOT</hsweb.framework.version>
+        <hsweb.framework.version>5.0.1</hsweb.framework.version>
         <hsweb.expands.version>3.0.2</hsweb.expands.version>
         <reactor.version>2024.0.8</reactor.version>
         <scalecube.version>2.10.23</scalecube.version>
