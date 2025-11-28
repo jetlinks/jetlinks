@@ -25,3 +25,4 @@ hs_err_pid*
 /upload
 /ui/upload/
 .java-version
+.DS_Store
