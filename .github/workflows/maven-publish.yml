@@ -1,0 +1,29 @@
+name: Publish JetLinks snapshot reactor
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_repository:
+        description: Repository that requested a build (empty for a manual refresh)
+        type: string
+        required: false
+      source_sha:
+        description: Commit that requested a build
+        type: string
+        required: false
+      source_ref:
+        description: Release branch
+        type: choice
+        options: ['1.3']
+        default: '1.3'
+
+permissions: {}
+
+jobs:
+  select-release-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require the release workflow
+        run: |
+          echo '::error::Select branch 1.3 to run the snapshot publication workflow.'
+          exit 1
